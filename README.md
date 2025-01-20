@@ -1,2 +1,2 @@
-# Swift UIC omponents
+# Swift UI Components
 SwiftUIComponents
