@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  SwiftUIComponent
+
+  Created by Ajeet Sharma on 20/01/2025.
+  
+*/
+
+"screenTitleLogin" = "Login";
+"orLoginWith" = "Or Login with";
+"screenTitleSignup" = "Sign Up";
