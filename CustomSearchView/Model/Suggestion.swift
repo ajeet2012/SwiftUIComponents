@@ -14,6 +14,7 @@ struct Suggestion {
     
     static let suggestionItem = Suggestion(text: "Delhi")
     
+    static let historyItem = Suggestion(text: "Delhi", isHistory: true)
     
     static let suggestionItemList = [
         

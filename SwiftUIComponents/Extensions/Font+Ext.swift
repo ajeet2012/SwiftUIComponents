@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension Font {
+public extension Font {
     static let fontAvenir28 = Font.custom("Avenir", size: 28)
     static let fontAvenir26 = Font.custom("Avenir", size: 26)
     static let fontAvenir24 = Font.custom("Avenir", size: 24)
