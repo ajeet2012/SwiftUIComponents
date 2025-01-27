@@ -11,23 +11,9 @@ struct SuggestionView: View {
     var suggestion: Suggestion
     var body: some View {
         HStack {
-            if suggestion.isHistory{
-                Image(systemName: "clock.arrow.circlepath")
-                    .resizable()
-                    .frame(width: SuggestionConstants.suggestionHistoryImageWidth, height: SuggestionConstants.suggestionHistoryImageWidth)
-            }
-            
             Text(suggestion.text)
                 .font(.fontAvenir14)
                 .lineLimit(1)
-            
-            if suggestion.isHistory{
-                Image(systemName: "xmark.circle")
-                    .resizable()
-                    .frame(width: SuggestionConstants.suggestionXMarkImageWidth, height: SuggestionConstants.suggestionXMarkImageWidth)
-                    .foregroundColor(.red.opacity(0.7))
-                    .padding(.leading, SuggestionConstants.suggestionXMarkLeadingPadding)
-            }
         }
         .padding([.leading, .trailing], SuggestionConstants.suggestionHorizontalPadding)
         .padding([.top, .bottom], SuggestionConstants.suggestionVerticalPadding)

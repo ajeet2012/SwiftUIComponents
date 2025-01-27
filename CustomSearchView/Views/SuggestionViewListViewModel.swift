@@ -20,7 +20,7 @@ class SuggestionViewListViewModel : ObservableObject {
         
         for item in suggestionList {
             let textWidth = item.text.width(usingFont: .fontAvenir14)
-            let totalWidth = textWidth + (item.isHistory ? 35 : 0)
+            let totalWidth = textWidth
             if rowWidth <= SuggestionConstants.suggestionListWidth {
                 // Enter in a row
                 rowItems.append(item)
