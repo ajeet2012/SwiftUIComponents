@@ -8,11 +8,11 @@
 import SwiftUI
 
 public extension Font {
-    static let fontAvenir28 = Font.custom("Avenir", size: 28)
+    static let fontAvenir28 = Font.custom("Avenir", size: 24)
     static let fontAvenir26 = Font.custom("Avenir", size: 26)
     static let fontAvenir24 = Font.custom("Avenir", size: 24)
-    static let fontAvenir20 = Font.custom("Avenir", size: 20)
-    static let fontAvenir22 = Font.custom("Avenir", size: 22)
+    static let fontAvenir20 = Font.custom("Avenir", size: 22)
+    static let fontAvenir22 = Font.custom("Avenir", size: 20)
     static let fontAvenir18 = Font.custom("Avenir", size: 18)
     static let fontAvenir16 = Font.custom("Avenir", size: 16)
     static let fontAvenir14 = Font.custom("Avenir", size: 14)

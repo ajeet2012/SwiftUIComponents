@@ -14,29 +14,30 @@ struct SuggestionView: View {
             if suggestion.isHistory{
                 Image(systemName: "clock.arrow.circlepath")
                     .resizable()
-                    .frame(width: 15, height: 15)
+                    .frame(width: SuggestionConstants.suggestionHistoryImageWidth, height: SuggestionConstants.suggestionHistoryImageWidth)
             }
             
             Text(suggestion.text)
-                .font(.fontAvenir16)
+                .font(.fontAvenir14)
+                .lineLimit(1)
             
             if suggestion.isHistory{
                 Image(systemName: "xmark.circle")
                     .resizable()
-                    .frame(width: 20, height: 20)
+                    .frame(width: SuggestionConstants.suggestionXMarkImageWidth, height: SuggestionConstants.suggestionXMarkImageWidth)
                     .foregroundColor(.red.opacity(0.7))
-                    .padding(.leading, 5)
+                    .padding(.leading, SuggestionConstants.suggestionXMarkLeadingPadding)
             }
         }
-        .frame(width: .infinity, height: .infinity)
-        .padding()
+        .padding([.leading, .trailing], SuggestionConstants.suggestionHorizontalPadding)
+        .padding([.top, .bottom], SuggestionConstants.suggestionVerticalPadding)
         .background(
             Capsule()
-                .fill(.themeTernary) // Fill color for the capsule
+                .fill(suggestion.isSelected ? .blue.opacity(0.3) : .themeTernary)
         )
         .overlay(
             Capsule()
-                .stroke(.secondary.opacity(0.6), lineWidth: 2) // Stroke color and width
+                .stroke(suggestion.isSelected ? Color.black.opacity(0.5) : .secondary.opacity(0.6), lineWidth: 1)
         )
     }
 }

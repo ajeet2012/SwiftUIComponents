@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIComponentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SuggestionViewList()
         }
     }
 }

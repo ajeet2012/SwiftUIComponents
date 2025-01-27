@@ -8,10 +8,11 @@
 import Foundation
 
 
-struct Suggestion {
+struct Suggestion : Identifiable, Hashable {
+    var id = UUID()
     var text: String
     var isHistory: Bool = false
-    
+    var isSelected: Bool = false
     static let suggestionItem = Suggestion(text: "Delhi")
     
     static let historyItem = Suggestion(text: "Delhi", isHistory: true)
@@ -20,6 +21,7 @@ struct Suggestion {
         
         Suggestion(text: "Mumbai"),
         Suggestion(text: "Delhi"),
+        Suggestion(text: "Venkatanarasimharajuvaripeta"),
         Suggestion(text: "Bangalore"),
         Suggestion(text: "Hyderabad"),
         Suggestion(text: "Ahmedabad"),
@@ -80,6 +82,7 @@ struct Suggestion {
         Suggestion(text: "Mumbai", isHistory: true),
         Suggestion(text: "Delhi", isHistory: true),
         Suggestion(text: "Bangalore", isHistory: true),
+        Suggestion(text: "Venkatanarasimharajuvaripeta", isHistory: true),
         Suggestion(text: "Hyderabad", isHistory: true),
         Suggestion(text: "Ahmedabad", isHistory: true),
         Suggestion(text: "Kolkata", isHistory: true),
