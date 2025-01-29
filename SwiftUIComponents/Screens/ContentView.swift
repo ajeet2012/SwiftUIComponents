@@ -8,13 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var isCustomTextfieldTapped = false
-    @State var isCustomTabBarTapped = false
-    
     @State private var selectedItem: CellItemId? = nil
     @State private var isNavigationActive: Bool = false // State to control NavigationLink
     
-    let homeList: [CellListItem] = [CellListItem(id: .customTextField, title: "Custom Text Field"), CellListItem(id: .customTabbar, title: "Custom Tabbar")]
+    let homeList: [CellListItem] = [CellListItem(id: .customTextField, title: "Custom Text Field"), CellListItem(id: .customTabbar, title: "Custom Tabbar"), CellListItem(id: .multiOption, title: "Multiple Options View")]
     
     var body: some View {
         

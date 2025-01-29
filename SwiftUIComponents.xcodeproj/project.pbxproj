@@ -18,11 +18,11 @@
 		772E323F2D3EDA49005BEF32 /* CustomTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772E32392D3EDA49005BEF32 /* CustomTabbarView.swift */; };
 		772E32402D3EDA49005BEF32 /* ChartTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772E323A2D3EDA49005BEF32 /* ChartTabbarView.swift */; };
 		772E32412D3EDA49005BEF32 /* ExpenseTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772E323B2D3EDA49005BEF32 /* ExpenseTabBar.swift */; };
-		773005552D405465007D7D3E /* Suggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773005542D405465007D7D3E /* Suggestion.swift */; };
-		773005572D4057C8007D7D3E /* SuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773005562D4057C8007D7D3E /* SuggestionView.swift */; };
-		773005592D405CCB007D7D3E /* SuggestionViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773005582D405CCB007D7D3E /* SuggestionViewList.swift */; };
-		7730055B2D405F9E007D7D3E /* SuggestionViewListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7730055A2D405F9E007D7D3E /* SuggestionViewListViewModel.swift */; };
-		7730055D2D46F9AD007D7D3E /* SuggestionConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7730055C2D46F9AD007D7D3E /* SuggestionConstants.swift */; };
+		773005552D405465007D7D3E /* MultipleOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773005542D405465007D7D3E /* MultipleOption.swift */; };
+		773005572D4057C8007D7D3E /* MultipleOptionSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773005562D4057C8007D7D3E /* MultipleOptionSelectionView.swift */; };
+		773005592D405CCB007D7D3E /* MultipleOptionSelectionViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773005582D405CCB007D7D3E /* MultipleOptionSelectionViewList.swift */; };
+		7730055B2D405F9E007D7D3E /* MultipleOptionSelectionViewListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7730055A2D405F9E007D7D3E /* MultipleOptionSelectionViewListViewModel.swift */; };
+		7730055D2D46F9AD007D7D3E /* MultipleOptionSelectionConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7730055C2D46F9AD007D7D3E /* MultipleOptionSelectionConstants.swift */; };
 		77508C372D3D2F4B0042B315 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77508C362D3D2F4B0042B315 /* Enums.swift */; };
 		77508C392D3D31BD0042B315 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77508C382D3D31BD0042B315 /* Validations.swift */; };
 		77508C3D2D3D33F90042B315 /* LoginViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77508C3B2D3D33F90042B315 /* LoginViewDemo.swift */; };
@@ -51,11 +51,11 @@
 		772E32392D3EDA49005BEF32 /* CustomTabbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabbarView.swift; sourceTree = "<group>"; };
 		772E323A2D3EDA49005BEF32 /* ChartTabbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartTabbarView.swift; sourceTree = "<group>"; };
 		772E323B2D3EDA49005BEF32 /* ExpenseTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseTabBar.swift; sourceTree = "<group>"; };
-		773005542D405465007D7D3E /* Suggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suggestion.swift; sourceTree = "<group>"; };
-		773005562D4057C8007D7D3E /* SuggestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionView.swift; sourceTree = "<group>"; };
-		773005582D405CCB007D7D3E /* SuggestionViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionViewList.swift; sourceTree = "<group>"; };
-		7730055A2D405F9E007D7D3E /* SuggestionViewListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionViewListViewModel.swift; sourceTree = "<group>"; };
-		7730055C2D46F9AD007D7D3E /* SuggestionConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionConstants.swift; sourceTree = "<group>"; };
+		773005542D405465007D7D3E /* MultipleOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleOption.swift; sourceTree = "<group>"; };
+		773005562D4057C8007D7D3E /* MultipleOptionSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleOptionSelectionView.swift; sourceTree = "<group>"; };
+		773005582D405CCB007D7D3E /* MultipleOptionSelectionViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleOptionSelectionViewList.swift; sourceTree = "<group>"; };
+		7730055A2D405F9E007D7D3E /* MultipleOptionSelectionViewListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleOptionSelectionViewListViewModel.swift; sourceTree = "<group>"; };
+		7730055C2D46F9AD007D7D3E /* MultipleOptionSelectionConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleOptionSelectionConstants.swift; sourceTree = "<group>"; };
 		77508C362D3D2F4B0042B315 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		77508C382D3D31BD0042B315 /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
 		77508C3B2D3D33F90042B315 /* LoginViewDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewDemo.swift; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 		773005512D405408007D7D3E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				773005542D405465007D7D3E /* Suggestion.swift */,
+				773005542D405465007D7D3E /* MultipleOption.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -159,10 +159,10 @@
 		773005522D405419007D7D3E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				773005562D4057C8007D7D3E /* SuggestionView.swift */,
-				773005582D405CCB007D7D3E /* SuggestionViewList.swift */,
-				7730055A2D405F9E007D7D3E /* SuggestionViewListViewModel.swift */,
-				7730055C2D46F9AD007D7D3E /* SuggestionConstants.swift */,
+				773005562D4057C8007D7D3E /* MultipleOptionSelectionView.swift */,
+				773005582D405CCB007D7D3E /* MultipleOptionSelectionViewList.swift */,
+				7730055A2D405F9E007D7D3E /* MultipleOptionSelectionViewListViewModel.swift */,
+				7730055C2D46F9AD007D7D3E /* MultipleOptionSelectionConstants.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -294,8 +294,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				77508C4E2D3D51770042B315 /* View+Ext.swift in Sources */,
-				773005552D405465007D7D3E /* Suggestion.swift in Sources */,
-				773005592D405CCB007D7D3E /* SuggestionViewList.swift in Sources */,
+				773005552D405465007D7D3E /* MultipleOption.swift in Sources */,
+				773005592D405CCB007D7D3E /* MultipleOptionSelectionViewList.swift in Sources */,
 				772E32402D3EDA49005BEF32 /* ChartTabbarView.swift in Sources */,
 				77508C4C2D3D47E10042B315 /* CustomTextField.swift in Sources */,
 				772E32412D3EDA49005BEF32 /* ExpenseTabBar.swift in Sources */,
@@ -309,16 +309,16 @@
 				77508C3E2D3D33F90042B315 /* SignUpViewDemo.swift in Sources */,
 				77508C532D3DB83F0042B315 /* SecureTextFieldView.swift in Sources */,
 				77508C442D3D352C0042B315 /* Constants.swift in Sources */,
-				7730055B2D405F9E007D7D3E /* SuggestionViewListViewModel.swift in Sources */,
+				7730055B2D405F9E007D7D3E /* MultipleOptionSelectionViewListViewModel.swift in Sources */,
 				77508C422D3D34E30042B315 /* ContentView.swift in Sources */,
 				77079D382D3A857600A90993 /* SwiftUIComponentApp.swift in Sources */,
-				7730055D2D46F9AD007D7D3E /* SuggestionConstants.swift in Sources */,
+				7730055D2D46F9AD007D7D3E /* MultipleOptionSelectionConstants.swift in Sources */,
 				772E323D2D3EDA49005BEF32 /* HomeTabbarView.swift in Sources */,
 				77508C392D3D31BD0042B315 /* Validations.swift in Sources */,
 				772E323C2D3EDA49005BEF32 /* GoalsTabbarView.swift in Sources */,
 				77508C482D3D382D0042B315 /* CapsuleButtonView.swift in Sources */,
 				77079D4E2D3BC43900A90993 /* CustomTextfieldView.swift in Sources */,
-				773005572D4057C8007D7D3E /* SuggestionView.swift in Sources */,
+				773005572D4057C8007D7D3E /* MultipleOptionSelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

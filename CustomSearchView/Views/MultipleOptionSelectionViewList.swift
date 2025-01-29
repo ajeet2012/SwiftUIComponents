@@ -1,5 +1,5 @@
 //
-//  SuggestionViewList.swift
+//  MultipleOptionSelectionViewList.swift
 //  SwiftUIComponents
 //
 //  Created by Ajeet Sharma on 22/01/2025.
@@ -7,19 +7,19 @@
 
 import SwiftUI
 
-struct SuggestionViewList: View {
+struct MultipleOptionSelectionViewList: View {
     
-    @StateObject private var viewModel = SuggestionViewListViewModel()
+    @StateObject private var viewModel = MultipleOptionSelectionViewListViewModel()
     
     var body: some View {
         ScrollView {
             VStack(alignment: .leading){
                 Spacer()
-                ForEach(0..<viewModel.suggestionInRows.count, id: \.self) { rowIndex in
+                ForEach(0..<viewModel.optionInRows.count, id: \.self) { rowIndex in
                     
                     HStack(spacing: 8) { // HStack for each row
-                        ForEach(viewModel.suggestionInRows[rowIndex], id: \.self) { item in
-                            SuggestionView(suggestion: item)
+                        ForEach(viewModel.optionInRows[rowIndex], id: \.self) { item in
+                            MultipleOptionSelectionView(option: item)
                                 .onTapGesture {
                                     viewModel.toggleSelection(row: rowIndex, id: item.id)
                                 }
@@ -27,7 +27,7 @@ struct SuggestionViewList: View {
                     }
                 }
             }
-            .frame(width: SuggestionConstants.suggestionListWidth)
+            .frame(width: MultipleOptionSelectionConstants.optionListWidth)
         }
         .onAppear {
             viewModel.findStringWidth()            
@@ -36,5 +36,5 @@ struct SuggestionViewList: View {
 }
 
 #Preview {
-    SuggestionViewList()
+    MultipleOptionSelectionViewList()
 }

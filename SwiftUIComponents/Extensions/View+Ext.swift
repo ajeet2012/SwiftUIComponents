@@ -36,6 +36,8 @@ extension View {
             return AnyView(LoginView())
         case .signUp:
             return AnyView(SignUpView())
+        case .multiOption:
+            return AnyView(MultipleOptionSelectionViewList())
         }
     }
 }

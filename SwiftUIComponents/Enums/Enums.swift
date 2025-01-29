@@ -25,4 +25,5 @@ public enum CellItemId: String {
     case customTabbar
     case login
     case signUp
+    case multiOption
 }
