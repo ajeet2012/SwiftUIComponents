@@ -19,10 +19,10 @@ class MultipleOptionSelectionViewListViewModel : ObservableObject {
         for item in optionList {
             let textWidth = item.text.width(usingFont: .fontAvenir14)
             let totalWidth = textWidth
-            if rowWidth <= MultipleOptionSelectionConstants.optionListWidth {
+            if (rowWidth <= (UIScreen.main.bounds.width - 20)) {
                 // Enter in a row
                 rowItems.append(item)
-                rowWidth =  rowWidth + totalWidth + MultipleOptionSelectionConstants.optionSpacingHorizontal
+                rowWidth =  rowWidth + totalWidth + 60
             }
             else {
                 // Add all items in a row
@@ -34,7 +34,7 @@ class MultipleOptionSelectionViewListViewModel : ObservableObject {
                 
                 // Move to next row
                 rowItems.append(item)
-                rowWidth =  rowWidth + totalWidth + MultipleOptionSelectionConstants.optionSpacingHorizontal
+                rowWidth =  rowWidth + totalWidth + 60
             }
         }
     }

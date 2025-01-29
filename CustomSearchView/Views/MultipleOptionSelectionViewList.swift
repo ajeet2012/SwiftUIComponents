@@ -27,7 +27,7 @@ struct MultipleOptionSelectionViewList: View {
                     }
                 }
             }
-            .frame(width: MultipleOptionSelectionConstants.optionListWidth)
+            .frame(width: UIScreen.main.bounds.width - 20)
         }
         .onAppear {
             viewModel.findStringWidth()            

@@ -22,7 +22,6 @@
 		773005572D4057C8007D7D3E /* MultipleOptionSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773005562D4057C8007D7D3E /* MultipleOptionSelectionView.swift */; };
 		773005592D405CCB007D7D3E /* MultipleOptionSelectionViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773005582D405CCB007D7D3E /* MultipleOptionSelectionViewList.swift */; };
 		7730055B2D405F9E007D7D3E /* MultipleOptionSelectionViewListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7730055A2D405F9E007D7D3E /* MultipleOptionSelectionViewListViewModel.swift */; };
-		7730055D2D46F9AD007D7D3E /* MultipleOptionSelectionConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7730055C2D46F9AD007D7D3E /* MultipleOptionSelectionConstants.swift */; };
 		77508C372D3D2F4B0042B315 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77508C362D3D2F4B0042B315 /* Enums.swift */; };
 		77508C392D3D31BD0042B315 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77508C382D3D31BD0042B315 /* Validations.swift */; };
 		77508C3D2D3D33F90042B315 /* LoginViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77508C3B2D3D33F90042B315 /* LoginViewDemo.swift */; };
@@ -55,7 +54,6 @@
 		773005562D4057C8007D7D3E /* MultipleOptionSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleOptionSelectionView.swift; sourceTree = "<group>"; };
 		773005582D405CCB007D7D3E /* MultipleOptionSelectionViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleOptionSelectionViewList.swift; sourceTree = "<group>"; };
 		7730055A2D405F9E007D7D3E /* MultipleOptionSelectionViewListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleOptionSelectionViewListViewModel.swift; sourceTree = "<group>"; };
-		7730055C2D46F9AD007D7D3E /* MultipleOptionSelectionConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleOptionSelectionConstants.swift; sourceTree = "<group>"; };
 		77508C362D3D2F4B0042B315 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		77508C382D3D31BD0042B315 /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
 		77508C3B2D3D33F90042B315 /* LoginViewDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewDemo.swift; sourceTree = "<group>"; };
@@ -162,7 +160,6 @@
 				773005562D4057C8007D7D3E /* MultipleOptionSelectionView.swift */,
 				773005582D405CCB007D7D3E /* MultipleOptionSelectionViewList.swift */,
 				7730055A2D405F9E007D7D3E /* MultipleOptionSelectionViewListViewModel.swift */,
-				7730055C2D46F9AD007D7D3E /* MultipleOptionSelectionConstants.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -312,7 +309,6 @@
 				7730055B2D405F9E007D7D3E /* MultipleOptionSelectionViewListViewModel.swift in Sources */,
 				77508C422D3D34E30042B315 /* ContentView.swift in Sources */,
 				77079D382D3A857600A90993 /* SwiftUIComponentApp.swift in Sources */,
-				7730055D2D46F9AD007D7D3E /* MultipleOptionSelectionConstants.swift in Sources */,
 				772E323D2D3EDA49005BEF32 /* HomeTabbarView.swift in Sources */,
 				77508C392D3D31BD0042B315 /* Validations.swift in Sources */,
 				772E323C2D3EDA49005BEF32 /* GoalsTabbarView.swift in Sources */,

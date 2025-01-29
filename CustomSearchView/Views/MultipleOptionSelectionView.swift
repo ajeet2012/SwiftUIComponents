@@ -15,8 +15,8 @@ struct MultipleOptionSelectionView: View {
                 .font(.fontAvenir14)
                 .lineLimit(1)
         }
-        .padding([.leading, .trailing], MultipleOptionSelectionConstants.optionHorizontalPadding)
-        .padding([.top, .bottom], MultipleOptionSelectionConstants.optionVerticalPadding)
+        .padding([.leading, .trailing], 10.0)
+        .padding([.top, .bottom], 8.0)
         .background(
             Capsule()
                 .fill(option.isSelected ? .blue.opacity(0.3) : .themeTernary)
