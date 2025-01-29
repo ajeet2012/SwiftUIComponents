@@ -28,7 +28,7 @@ class MultipleOptionSelectionViewListViewModel : ObservableObject {
                 // Add all items in a row
                 optionInRows.append(rowItems)
                 
-                // Reset
+                // Reset to prepare new row
                 rowItems.removeAll()
                 rowWidth = 0
                 
