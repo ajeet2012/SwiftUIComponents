@@ -32,3 +32,14 @@ https://github.com/user-attachments/assets/7cd91842-b0e2-4971-a08a-d0ed19ac5b92
 
 
 
+	•	How to create dynamically sized capsule-shaped buttons
+	•	Handle multi-selection state management
+	•	Use SwiftUI’s flexible layout system for adaptive UI
+
+
+
+
+https://github.com/user-attachments/assets/98866764-32e3-4c0d-8e7c-2060f51b673f
+
+
+
